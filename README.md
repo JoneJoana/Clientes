@@ -2,9 +2,12 @@
 Simple Web App to insert, edit, delete and show data. Using PHP 8, Symfony 4, Twig, Bootstrap and MySQL. 
 
 First time with PHP, Symfony and Twig. It has been fun! 
+Next steps will be implementing some code improvements and to Dockerize the app. 
+Excited to work more with PHP. 
 
 
  - To run the project, take .env.dist and copy the info into your .env file, with your own db info. 
+
 
 Initial page: 
 
