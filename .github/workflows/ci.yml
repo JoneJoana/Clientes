@@ -13,3 +13,10 @@ jobs:
 
       - name: Hello world!
         run: echo "Hello beautiful from ${{ github.workflow }} triggered byt the ${{ github.event_name }} done by ${{ github.actor }}"
+
+      - name: 😊 More and more
+        env:
+          JOB_CONTEXT: ${{ toJson(job) }}
+        run: |
+          echo "Job Context: $JOB_CONTEXT"
+          echo "Done!"
