@@ -1,4 +1,6 @@
 {
+    "name": "phpsymphony4/simpleapp",
+    "description": "simple app in php",
     "type": "project",
     "license": "proprietary",
     "require": {
