@@ -3,7 +3,7 @@ name: first workflow
 on: 
   push:
     branches: [ "master" ]
-    
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,8 +11,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Hello world!
-        run: echo "Hello beautiful from ${{ github.workflow }} triggered byt the ${{ github.event_name }} done by ${{ github.actor }}"
+      - name: Hello Beautiful!
+        run: echo "Hello beauty from ${{ github.workflow }} triggered by the ${{ github.event_name }} event done by ${{ github.actor }}"
 
       - name: 😊 More and more
         env:
